@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  type="text/css" />
+    <link rel="stylesheet"  type="text/css" href="./source/coffee.css"  />
+  </head>
+  <body> 
+    <div id="container">
+     <header>
+       <h1>How to Make Instant Coffee</h1> 
+        <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fbrianroberts%2Ffiles%2F2018%2F03%2Fpexels-photo-302899-1-1200x801.jpg">
+        <p>Instant coffee is great when you need a pick-me-up but don't have a coffee maker. Unlike ground coffee, instant coffee granules are made from dehydrated brewed coffee. Although this means you can't make the actual granules at home, instant coffee is still an easy, tasty way to get your caffeine fix! It's particularly great when iced, and you could get creative by adding spices, whipping up a fancy latte, or making a frosty coffee shake. </p>
+    </header>
+    <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+        <h2>ingredients  <i class="fa fa-coffee" aria-hidden="true"></i></h2>
+          <ul>
+            <li>1 cup (240 mL) hot water</li>
+            <li>1 to 2 teaspoons instant coffee</li>
+            <li>1 to 2 teaspoons sugar (optional)</li>
+            <li>Milk or creamer (optional)</li>
+            <li>Cocoa, spices, or vanilla extract (optional)</li>
+          </ul>
+    </section>
+    <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+        <h2>preparation <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></h2>
+          <ol>
+            <li><strong>Heat up a cup of water. </strong><br>To heat a cup of water quickly and easily, microwave it for 1 minute.[2] You could also heat it on the stovetop using a pot or kettle. Heat it over medium-high heat, then take the water off of the stove just before it starts to boil.</li>
+            <br>
+            <li><strong>Add 1 to 2 teaspoons of instant coffee to a mug.</strong><br> Check your instant coffee container’s label to see how much you should use to get the best taste. Most companies recommend using 1 to 2 teaspoons for 1 cup (240 mL) of water.</li>
+            <br>
+            <li><strong>Dissolve the coffee with a tablespoon of cold water.</strong><br> Mixing the coffee with a bit of cold water gently dissolves it. Gently dissolving the coffee instead of shocking it with hot water will improve the flavor. </li>
+            <br>
+            <li><strong>Pour the hot water into the mug.</strong><br> Add the water carefully, especially if you’re not using a kettle. Remember to leave room for milk or creamer if you don’t like your coffee black</li>
+            <br>
+            <li><strong>Mix in sugar or spices, if desired.</strong><br> For a richer coffee flavor, add sugar or spices after mixing the coffee with hot water. If you’d like, add a teaspoon of sugar, cocoa powder, cinnamon, or allspice.</li>
+            <br>
+            <li><strong>Add milk or cream if you’re not a fan of black coffee.</strong><br> Spoon dairy milk, almond milk, or another non-dairy option, cream, or flavored creamer into your coffee. The right amount to use depends on how light or dark you like your coffee.</li>
+            <br>
+            <li><strong>Stir your coffee and serve it.</strong><br> Give the coffee a good stir before enjoying it or serving it to someone else. Mix it until it’s uniform in color to evenly blend the milk and sugar (if you’re using them).</li>
+            <br>
+            <li><strong>Enjoy!</strong></li>
+          </ol>
+    </section>
+    <br>
+    <footer>
+        <p>Copyright Me 2018</p>
+    </footer>
+    <script src="index.js"></script>
+   </div>
+   <script>
+        function ingredientsHover() {
+            document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = '300%';
+        }
+
+
+        function ingredientsNormal() {
+            document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = '100%';
+            // document.write("Normal");  
+        }
+
+
+        function preparationHover() {
+            document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = '300%';
+        }
+
+
+        function preparationNormal() {
+            document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = '100%';
+        }
+    </script>
+  </body>
+</html>

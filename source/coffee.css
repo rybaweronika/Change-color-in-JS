@@ -1,0 +1,39 @@
+body {
+    color: grey;
+    font-family: Courier New;
+  }
+  
+h1 {
+    font-size: 300%;
+  }
+h1, h2 {
+     color: green;
+     text: uppercase;
+     font-weight: 100;
+     text-transform: uppercase;
+   }
+img {
+     width: 100%;
+   }
+footer {
+     margin-top: 70px;
+     background-color: SlateGrey;
+     color:White;
+     text-align: center;
+     padding-top: 15px;
+     padding-bottom: 15px;
+   }
+  
+#container {
+    width:60%;
+    margin: auto;
+  }
+  
+@media screen and (max-width: 768px) {
+     #container {
+       width:90%;
+     }
+     h1 {
+       font-size: 200%;
+   }
+  }
